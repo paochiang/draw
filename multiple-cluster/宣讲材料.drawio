@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:45:04.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wf3tNMtXbCL7zE66C0iq" version="21.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-15T11:24:39.758Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Mn9wA5iYPdMAFjUmIOLL" version="21.6.1" type="github" pages="6">
   <diagram name="第 1 页" id="bD2TtuNyGcYrZg1UzJaZ">
     <mxGraphModel dx="1562" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3756,7 +3756,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SmziTyFXjiq6TBMbxyJs" name="第 6 页">
-    <mxGraphModel dx="2050" dy="4501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="4501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4522,7 +4522,7 @@
         </mxCell>
         <mxCell id="ciVUoa5ufvCPr5E9MYUx-361" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;GRPC、RESTful通信&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;跨云数据同步&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;labelBackgroundColor=none;" vertex="1" connectable="0" parent="ciVUoa5ufvCPr5E9MYUx-360">
           <mxGeometry x="-0.4303" y="1" relative="1" as="geometry">
-            <mxPoint y="27" as="offset" />
+            <mxPoint x="-15" y="-46" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ciVUoa5ufvCPr5E9MYUx-368" value="访问页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -4532,7 +4532,7 @@
           <mxGeometry x="616.9985714285715" y="-2890.0042857142853" as="geometry" />
         </mxCell>
         <mxCell id="ciVUoa5ufvCPr5E9MYUx-371" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;jupyterlab服务&lt;br&gt;文件上传&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="958.2485714285715" y="-2880.0042857142853" as="geometry">
+          <mxGeometry x="960.4985714285715" y="-2874.0042857142853" as="geometry">
             <mxPoint x="-5" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
