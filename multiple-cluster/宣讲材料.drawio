@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T11:24:39.758Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Mn9wA5iYPdMAFjUmIOLL" version="21.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-18T09:39:50.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="SI3Kn1bGAeAYcqE0hZvA" version="21.6.1" type="github" pages="6">
   <diagram name="第 1 页" id="bD2TtuNyGcYrZg1UzJaZ">
     <mxGraphModel dx="1562" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3756,7 +3756,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SmziTyFXjiq6TBMbxyJs" name="第 6 页">
-    <mxGraphModel dx="1783" dy="4501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1054" dy="4021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3966,8 +3966,8 @@
         <mxCell id="ciVUoa5ufvCPr5E9MYUx-143" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;dashed=1;fillColor=none;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="1296" y="-1660" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ciVUoa5ufvCPr5E9MYUx-271" value="GRPC、RESTful 通信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1317.75" y="-879" width="130" height="20" as="geometry" />
+        <mxCell id="ciVUoa5ufvCPr5E9MYUx-271" value="GRPC、RESTful通信&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;跨云数据同步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1312.75" y="-889" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ciVUoa5ufvCPr5E9MYUx-273" value="GRPC、RESTful通信&lt;br&gt;跨云数据同步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1311.3100000000002" y="-439" width="140" height="40" as="geometry" />
