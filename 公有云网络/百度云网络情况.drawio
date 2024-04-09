@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T11:11:15.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mJW1H4ljiH2D4dcTr9aZ" version="23.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-09T11:11:53.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rmb2Cqq3EeAtnJQvFbqq" version="23.0.2" type="github" pages="2">
   <diagram name="百度云" id="gYKub35wYbPdEZ0AHTIz">
     <mxGraphModel dx="2315" dy="1425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -613,6 +613,9 @@
         </mxCell>
         <mxCell id="JJj04--VAPtce4CHbxlu-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=-0.048;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="0PfzmOiKM8PdERNJTd15-1" source="JJj04--VAPtce4CHbxlu-29" target="0PfzmOiKM8PdERNJTd15-34">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev6NhTqCFsbwqBzuZVOS-0" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ps1: 一个vpc内只能用一个NAT带宽包&lt;br style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;ps2: 一个vpc内只能有一个NAT&lt;/span&gt;&lt;br style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;ps3: 一个vpc内只能用EIP或者NAT&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="0PfzmOiKM8PdERNJTd15-1">
+          <mxGeometry x="50" y="1058" width="290" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
