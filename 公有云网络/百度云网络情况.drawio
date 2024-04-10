@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T12:15:12.447Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PckB675esB3BCkDqgz25" version="23.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-10T08:46:20.532Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Ie4k2YNxnDjbD-JTQpUM" version="23.0.2" type="github" pages="2">
   <diagram name="百度云" id="gYKub35wYbPdEZ0AHTIz">
-    <mxGraphModel dx="1736" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1524" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="pqaVeyBnAmrL7TeJL3RD-0" />
         <mxCell id="pqaVeyBnAmrL7TeJL3RD-1" parent="pqaVeyBnAmrL7TeJL3RD-0" />
@@ -50,7 +50,7 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pqaVeyBnAmrL7TeJL3RD-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="pqaVeyBnAmrL7TeJL3RD-1" source="pqaVeyBnAmrL7TeJL3RD-12" target="pqaVeyBnAmrL7TeJL3RD-21">
+        <mxCell id="pqaVeyBnAmrL7TeJL3RD-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="pqaVeyBnAmrL7TeJL3RD-1" source="pqaVeyBnAmrL7TeJL3RD-12" target="ihH-e7uWwct9jlfeRCRR-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pqaVeyBnAmrL7TeJL3RD-11" value="50M共享" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.bandwidth;fontSize=16;" vertex="1" parent="pqaVeyBnAmrL7TeJL3RD-1">
@@ -372,11 +372,17 @@
         <mxCell id="wgCUNKsJaUZ2mRiS0L9G-0" value="node0、node3、node15" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.node;fontSize=16;" vertex="1" parent="pqaVeyBnAmrL7TeJL3RD-1">
           <mxGeometry x="704" y="1116" width="33.6" height="42" as="geometry" />
         </mxCell>
+        <mxCell id="ihH-e7uWwct9jlfeRCRR-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="pqaVeyBnAmrL7TeJL3RD-1" source="ihH-e7uWwct9jlfeRCRR-0" target="pqaVeyBnAmrL7TeJL3RD-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ihH-e7uWwct9jlfeRCRR-0" value="EIP" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="pqaVeyBnAmrL7TeJL3RD-1">
+          <mxGeometry x="1431" y="380" width="60" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="首云" id="vNIaQA5E_GTMRiQLAvHB">
-    <mxGraphModel dx="2036" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2578" dy="1403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0PfzmOiKM8PdERNJTd15-0" />
         <mxCell id="0PfzmOiKM8PdERNJTd15-1" parent="0PfzmOiKM8PdERNJTd15-0" />
@@ -641,6 +647,9 @@
         </mxCell>
         <mxCell id="wNxfd1bPMFwnxnXsQz_w-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.449;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="0PfzmOiKM8PdERNJTd15-1" source="wNxfd1bPMFwnxnXsQz_w-0" target="wNxfd1bPMFwnxnXsQz_w-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MGDrUCf7_Shtbs68M5GQ-0" value="调整：&lt;br&gt;1、100M共享减到10M&lt;br&gt;2、sftp降低到100M" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="0PfzmOiKM8PdERNJTd15-1">
+          <mxGeometry x="417.29999999999995" y="1030" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
