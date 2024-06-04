@@ -1,9 +1,502 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T12:29:22.351Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="QO7q4_t8J1KBnqoZ2PcV" type="github">
-  <diagram name="第 1 页" id="pBMWg3RM2VYV9XyBIWiX">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-06-04T07:52:34.640Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DpM7mgZVss3fMHNV7wR3" version="24.3.0" type="github">
+  <diagram name="解压" id="pBMWg3RM2VYV9XyBIWiX">
+    <mxGraphModel dx="1562" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="blJGUaGX_WlWuqrMyAae-35" value="swfspod" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="900" y="40" width="100" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-35">
+          <mxGeometry x="45" y="53" width="10" height="957" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-35">
+          <mxGeometry x="51" y="660" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-38" value="通过环境变量读取配置文件和请求信息&lt;div&gt;确定解压目录和文件&lt;div&gt;构建解压命令&lt;br&gt;执行解压命令&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-35" target="blJGUaGX_WlWuqrMyAae-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="86" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-17" value="pavo-agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="100" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-17">
+          <mxGeometry x="45" y="53" width="10" height="957" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-17">
+          <mxGeometry x="52" y="453" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-20" value="参数校验&lt;br&gt;从geminifs查询latest数据信息&lt;br&gt;插入dataReq记录&lt;br&gt;启动异步解压任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-17" target="blJGUaGX_WlWuqrMyAae-19">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="57" y="433" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="87" y="463" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-17">
+          <mxGeometry x="52" y="580" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-17">
+          <mxGeometry x="50" y="760" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-24" value="查询&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;dataReq&lt;/span&gt;&lt;br&gt;更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;dataReq&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-17" target="blJGUaGX_WlWuqrMyAae-23">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="770" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-17">
+          <mxGeometry x="50" y="950" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-26" value="删除&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;dataReq&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-17" target="blJGUaGX_WlWuqrMyAae-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="930" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-22" value="构建解压job yaml&lt;br&gt;通过k8s api server创建解压job&lt;br&gt;更新job信息到dataReq" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-17" target="blJGUaGX_WlWuqrMyAae-21">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="57" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="87" y="590" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-1" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="100" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-1">
+          <mxGeometry x="45" y="53" width="10" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-3" value="pavo上游" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="100" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-3">
+          <mxGeometry x="45" y="53" width="10" height="1127" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-5" value="pavo-center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="240" height="1211" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry x="45" y="53" width="10" height="1137" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry x="49" y="153" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-8" value="&lt;div&gt;任务id前拼接解压前缀&lt;/div&gt;参数校验&lt;br&gt;查询latest数据信息&lt;div&gt;有效副本验证&lt;br&gt;任务幂等检查&lt;br&gt;网页修改状态检查&lt;br&gt;任务并发冲突检查&lt;br&gt;插入task记录&lt;br&gt;解压任务放入队列&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-7">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="133" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="163" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry x="49" y="343" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-10" value="task出队列&lt;div&gt;任务id上处理锁&lt;/div&gt;&lt;div&gt;刷新task&lt;br&gt;修改任务状态为doing&lt;br&gt;检查数据和副本状态&lt;br&gt;插入/获取幂等的pavoAgentTask记录&lt;br&gt;查询目的集群信息&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-9">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="323" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="353" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry x="49" y="870" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-12" value="查询pavoAgentTask记录&lt;br&gt;更新pavoAgentTask状态&lt;br&gt;启动异步任务处理流程" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-11">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="880" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry x="49" y="1070" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-14" value="查询task&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;任务id上处理锁&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;刷新task&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;查询pavoAgentTask记录&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;更新task记录状态&lt;/span&gt;&lt;br&gt;&lt;/div&gt;将pavoAgentTask移到统计表&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="1050" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry x="49" y="1160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-16" value="将task移动到统计表" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-15">
+          <mxGeometry x="0.0023" relative="1" as="geometry">
+            <mxPoint x="54" y="1140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="1170" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-47" value="通知解压结果-NotifyUnzipData" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;startArrow=block;startFill=1;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-140" y="1111" as="sourcePoint" />
+            <mxPoint x="40" y="1111" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-48" value="return" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startArrow=open;startFill=0;endFill=0;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1130" as="sourcePoint" />
+            <mxPoint x="-140" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-49" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;通知流程2&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
+          <mxGeometry x="-160" y="1017" width="400" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-27" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="103" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-28" value="解压压缩包" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="129" as="sourcePoint" />
+            <mxPoint x="150" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-29" value="解压请求" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="160" y="143" as="sourcePoint" />
+            <mxPoint x="340" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-30" value="解压请求-DataUnzip" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="153" as="sourcePoint" />
+            <mxPoint x="540" y="153" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-31" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="253" as="sourcePoint" />
+            <mxPoint x="360" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-32" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="263" as="sourcePoint" />
+            <mxPoint x="160" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-33" value="解压请求-DataUnzip" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="453" as="sourcePoint" />
+            <mxPoint x="740" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-34" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="543" as="sourcePoint" />
+            <mxPoint x="560" y="543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-39" value="通知解压结果-swfsJobCallback" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="760" y="750" as="sourcePoint" />
+            <mxPoint x="940" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-40" value="通知解压结果-NotifyAsyncTask" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="850" as="sourcePoint" />
+            <mxPoint x="740" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-41" value="return" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startArrow=open;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="960" as="sourcePoint" />
+            <mxPoint x="560" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-42" value="return" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startArrow=open;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="1040" as="sourcePoint" />
+            <mxPoint x="760" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-43" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;解压受理流程1&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="93" width="650" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-44" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;解压受理流程2&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="330" width="410" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-45" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;解压流程&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="323" width="820" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-46" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;解压通知总流程&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="729" width="690" height="531" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-50" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;通知流程1&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="730" width="450" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-51" value="swfspod" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1520" width="100" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-51">
+          <mxGeometry x="45" y="53" width="10" height="957" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-51">
+          <mxGeometry x="51" y="660" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-54" value="通过环境变量读取配置文件和请求信息&lt;div&gt;确定解压目录和文件&lt;div&gt;构建解压命令&lt;br&gt;执行解压命令&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-51" target="blJGUaGX_WlWuqrMyAae-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="86" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-55" value="pavo-agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1520" width="100" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-55">
+          <mxGeometry x="45" y="53" width="10" height="957" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-55">
+          <mxGeometry x="52" y="453" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-58" value="参数校验&lt;br&gt;从geminifs查询latest数据信息&lt;br&gt;插入dataReq记录&lt;br&gt;启动异步解压任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-55" target="blJGUaGX_WlWuqrMyAae-57">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="57" y="433" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="87" y="463" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-55">
+          <mxGeometry x="52" y="580" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-55">
+          <mxGeometry x="50" y="760" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-61" value="查询&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;dataReq&lt;/span&gt;&lt;br&gt;更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;dataReq&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-55" target="blJGUaGX_WlWuqrMyAae-60">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="770" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-55">
+          <mxGeometry x="50" y="950" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-63" value="删除&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;dataReq&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-55" target="blJGUaGX_WlWuqrMyAae-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="930" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-64" value="构建解压job yaml&lt;br&gt;通过k8s api server创建解压job&lt;br&gt;更新job信息到dataReq" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-55" target="blJGUaGX_WlWuqrMyAae-59">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="57" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="87" y="590" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-65" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1520" width="100" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-65">
+          <mxGeometry x="45" y="53" width="10" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-67" value="pavo上游" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1520" width="100" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-67">
+          <mxGeometry x="45" y="53" width="10" height="1127" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-69" value="pavo-center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1520" width="100" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-69">
+          <mxGeometry x="45" y="53" width="10" height="1137" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-69">
+          <mxGeometry x="49" y="153" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-72" value="&lt;div&gt;任务id前拼接解压前缀&lt;/div&gt;参数校验&lt;br&gt;查询latest数据信息&lt;div&gt;有效副本验证&lt;br&gt;任务幂等检查&lt;br&gt;网页修改状态检查&lt;br&gt;任务并发冲突检查&lt;br&gt;插入task记录&lt;br&gt;解压任务放入队列&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-69" target="blJGUaGX_WlWuqrMyAae-71">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="133" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="163" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-69">
+          <mxGeometry x="49" y="343" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-74" value="task出队列&lt;div&gt;任务id上处理锁&lt;/div&gt;&lt;div&gt;刷新task&lt;br&gt;修改任务状态为doing&lt;br&gt;检查数据和副本状态&lt;br&gt;插入/获取幂等的pavoAgentTask记录&lt;br&gt;查询目的集群信息&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-69" target="blJGUaGX_WlWuqrMyAae-73">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="323" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="353" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-69">
+          <mxGeometry x="49" y="870" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-76" value="查询pavoAgentTask记录&lt;br&gt;更新pavoAgentTask状态&lt;br&gt;启动异步任务处理流程" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-69" target="blJGUaGX_WlWuqrMyAae-75">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="880" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-69">
+          <mxGeometry x="49" y="1050" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-78" value="查询task&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;任务id上处理锁&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;刷新task&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;查询pavoAgentTask记录&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;更新task记录状态&lt;/span&gt;&lt;br&gt;&lt;/div&gt;将pavoAgentTask移到统计表&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-69" target="blJGUaGX_WlWuqrMyAae-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="1030" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-69">
+          <mxGeometry x="49" y="1140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-80" value="将task移动到统计表" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-69" target="blJGUaGX_WlWuqrMyAae-79">
+          <mxGeometry x="0.0023" relative="1" as="geometry">
+            <mxPoint x="54" y="1120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="1150" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-81" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1583" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-82" value="取消解压" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="1609" as="sourcePoint" />
+            <mxPoint x="190" y="1609" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-83" value="取消解压请求" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="1623" as="sourcePoint" />
+            <mxPoint x="380" y="1623" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-84" value="解压请求-DataUnzip" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="1633" as="sourcePoint" />
+            <mxPoint x="580" y="1633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-85" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1733" as="sourcePoint" />
+            <mxPoint x="400" y="1733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-86" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1743" as="sourcePoint" />
+            <mxPoint x="200" y="1743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-87" value="解压请求-DataUnzip" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="600" y="1933" as="sourcePoint" />
+            <mxPoint x="780" y="1933" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-88" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="2023" as="sourcePoint" />
+            <mxPoint x="600" y="2023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-89" value="通知解压结果-swfsJobCallback" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="800" y="2230" as="sourcePoint" />
+            <mxPoint x="980" y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-90" value="通知解压结果-NotifyAsyncTask" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="600" y="2330" as="sourcePoint" />
+            <mxPoint x="780" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-91" value="return" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startArrow=open;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="2440" as="sourcePoint" />
+            <mxPoint x="600" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-92" value="return" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startArrow=open;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="2520" as="sourcePoint" />
+            <mxPoint x="800" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-93" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;解压受理流程1&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1573" width="650" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-94" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;解压受理流程2&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1810" width="410" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-95" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;解压流程&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1800" width="850" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-96" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;解压通知总流程&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2209" width="920" height="514" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-97" value="通知解压结果-NotifyUnzipData" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="2611" as="sourcePoint" />
+            <mxPoint x="580" y="2611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-98" value="return" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startArrow=open;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="2630" as="sourcePoint" />
+            <mxPoint x="400" y="2630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-99" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;通知流程2&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2530" width="390" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="blJGUaGX_WlWuqrMyAae-100" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;通知流程1&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=100;height=15;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="2210" width="450" height="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
