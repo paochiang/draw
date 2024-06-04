@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T13:20:10.605Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1BK7iC75_MfLOAQ4DUsZ" version="24.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-04T13:22:52.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="M5hWl7uFHiyYG1wJYm77" version="24.3.0" type="github" pages="3">
   <diagram name="解压" id="pBMWg3RM2VYV9XyBIWiX">
-    <mxGraphModel dx="896" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="656" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,7 +119,7 @@
         <mxCell id="blJGUaGX_WlWuqrMyAae-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
           <mxGeometry x="49" y="870" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="blJGUaGX_WlWuqrMyAae-12" value="查询pavoAgentTask记录&lt;br&gt;更新pavoAgentTask状态&lt;br&gt;启动异步任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-11">
+        <mxCell id="blJGUaGX_WlWuqrMyAae-12" value="查询pavoAgentTask记录&lt;br&gt;更新pavoAgentTask重试信息和状态&lt;br&gt;启动异步任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-11">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="850" as="sourcePoint" />
             <Array as="points">
@@ -465,7 +465,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="删除" id="I2P5rUTLyGhZ4RfokRWU">
-    <mxGraphModel dx="896" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="656" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ufELNT6xj6v-KBszaX-q-0" />
         <mxCell id="ufELNT6xj6v-KBszaX-q-1" parent="ufELNT6xj6v-KBszaX-q-0" />
@@ -842,7 +842,7 @@
         <mxCell id="h3LJBdel3cueuFeMkyR9-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="h3LJBdel3cueuFeMkyR9-18">
           <mxGeometry x="49" y="780" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h3LJBdel3cueuFeMkyR9-25" value="查询pavoAgentTask记录&lt;br&gt;更新pavoAgentTask状态&lt;br&gt;启动异步任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="h3LJBdel3cueuFeMkyR9-18" target="h3LJBdel3cueuFeMkyR9-24">
+        <mxCell id="h3LJBdel3cueuFeMkyR9-25" value="查询pavoAgentTask记录&lt;br&gt;&lt;span style=&quot;&quot;&gt;更新pavoAgentTask重试信息和状态&lt;/span&gt;&lt;br style=&quot;&quot;&gt;启动异步任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="h3LJBdel3cueuFeMkyR9-18" target="h3LJBdel3cueuFeMkyR9-24">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="760" as="sourcePoint" />
             <Array as="points">
@@ -967,7 +967,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="创建" id="LaqLXC-tArOiJHAheh09">
-    <mxGraphModel dx="896" dy="-730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="656" dy="-730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ILkU3336ZmMnwyrVw-ej-0" />
         <mxCell id="ILkU3336ZmMnwyrVw-ej-1" parent="ILkU3336ZmMnwyrVw-ej-0" />
