@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T12:18:32.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="TcyVgRUok9aJtCOzTYdK" version="24.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-04T12:20:18.743Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="FBYPzRmGp50U3BAaDdQd" version="24.3.0" type="github" pages="2">
   <diagram name="解压" id="pBMWg3RM2VYV9XyBIWiX">
     <mxGraphModel dx="1562" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
         <mxCell id="blJGUaGX_WlWuqrMyAae-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-5">
           <mxGeometry x="49" y="153" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="blJGUaGX_WlWuqrMyAae-8" value="&lt;div&gt;任务id拼接解压前缀&lt;/div&gt;参数校验&lt;br&gt;查询metadata记录&lt;div&gt;有效副本验证&lt;br&gt;任务幂等检查&lt;br&gt;网页修改状态检查&lt;br&gt;任务并发冲突检查&lt;br&gt;插入task记录&lt;br&gt;解压任务放入队列&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-7">
+        <mxCell id="blJGUaGX_WlWuqrMyAae-8" value="&lt;div&gt;参数校验&lt;br&gt;&lt;/div&gt;&lt;div&gt;任务id拼接解压前缀&lt;/div&gt;查询metadata记录&lt;div&gt;有效副本验证&lt;br&gt;任务幂等检查&lt;br&gt;网页修改状态检查&lt;br&gt;任务并发冲突检查&lt;br&gt;插入task记录&lt;br&gt;解压任务放入队列&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-5" target="blJGUaGX_WlWuqrMyAae-7">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="133" as="sourcePoint" />
             <Array as="points">
@@ -289,7 +289,7 @@
         <mxCell id="blJGUaGX_WlWuqrMyAae-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-69">
           <mxGeometry x="49" y="153" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="blJGUaGX_WlWuqrMyAae-72" value="&lt;div&gt;任务id拼接解压前缀&lt;/div&gt;&lt;div&gt;查询task记录&lt;br&gt;任务id上锁&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;刷新task&lt;/span&gt;&lt;br style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;task终态检查&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;查询&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;pavoAgentTask记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;查询目的集群信息&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-69" target="blJGUaGX_WlWuqrMyAae-71">
+        <mxCell id="blJGUaGX_WlWuqrMyAae-72" value="&lt;div&gt;参数校验&lt;/div&gt;&lt;div&gt;任务id拼接解压前缀&lt;/div&gt;&lt;div&gt;查询task记录&lt;br&gt;任务id上锁&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;刷新task&lt;/span&gt;&lt;br style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;task终态检查&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;查询&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;pavoAgentTask记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;查询目的集群信息&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="blJGUaGX_WlWuqrMyAae-69" target="blJGUaGX_WlWuqrMyAae-71">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="133" as="sourcePoint" />
             <Array as="points">
@@ -425,7 +425,7 @@
         <mxCell id="blJGUaGX_WlWuqrMyAae-114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="blJGUaGX_WlWuqrMyAae-112">
           <mxGeometry x="49" y="153" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="blJGUaGX_WlWuqrMyAae-115" value="&lt;div&gt;任务id拼接解压前缀&lt;/div&gt;&lt;div&gt;查询task记录&lt;br&gt;&lt;/div&gt;&lt;div&gt;查询pavoAgentTask记录&lt;br style=&quot;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;查询目的集群信息&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-112" target="blJGUaGX_WlWuqrMyAae-114">
+        <mxCell id="blJGUaGX_WlWuqrMyAae-115" value="&lt;div&gt;参数校验&lt;/div&gt;&lt;div&gt;任务id拼接解压前缀&lt;/div&gt;&lt;div&gt;查询task记录&lt;br&gt;&lt;/div&gt;&lt;div&gt;查询pavoAgentTask记录&lt;br style=&quot;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;查询目的集群信息&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="blJGUaGX_WlWuqrMyAae-112" target="blJGUaGX_WlWuqrMyAae-114">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="133" as="sourcePoint" />
             <Array as="points">
@@ -525,7 +525,7 @@
         <mxCell id="ufELNT6xj6v-KBszaX-q-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="ufELNT6xj6v-KBszaX-q-20">
           <mxGeometry x="49" y="153" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ufELNT6xj6v-KBszaX-q-23" value="&lt;div&gt;任务id拼接删除前缀&lt;/div&gt;查询metadata记录&lt;div&gt;任务幂等检查&lt;div&gt;插入task记录&lt;br&gt;任务放入队列&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="ufELNT6xj6v-KBszaX-q-20" target="ufELNT6xj6v-KBszaX-q-22">
+        <mxCell id="ufELNT6xj6v-KBszaX-q-23" value="&lt;div&gt;参数校验&lt;/div&gt;&lt;div&gt;任务id拼接删除前缀&lt;/div&gt;查询metadata记录&lt;div&gt;任务幂等检查&lt;div&gt;插入task记录&lt;br&gt;任务放入队列&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="ufELNT6xj6v-KBszaX-q-20" target="ufELNT6xj6v-KBszaX-q-22">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="133" as="sourcePoint" />
             <Array as="points">
@@ -734,7 +734,7 @@
         <mxCell id="2rWUWQeE0axeOqjmCgI_-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="2rWUWQeE0axeOqjmCgI_-67">
           <mxGeometry x="49" y="153" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2rWUWQeE0axeOqjmCgI_-70" value="&lt;div&gt;任务id拼接删除前缀&lt;/div&gt;查询metadata记录&lt;div&gt;任务幂等检查&lt;div&gt;插入task记录&lt;br&gt;任务放入队列&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="2rWUWQeE0axeOqjmCgI_-67" target="2rWUWQeE0axeOqjmCgI_-69">
+        <mxCell id="2rWUWQeE0axeOqjmCgI_-70" value="&lt;div&gt;参数校验&lt;/div&gt;&lt;div&gt;任务id拼接删除前缀&lt;/div&gt;查询metadata记录&lt;div&gt;任务幂等检查&lt;div&gt;插入task记录&lt;br&gt;任务放入队列&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="2rWUWQeE0axeOqjmCgI_-67" target="2rWUWQeE0axeOqjmCgI_-69">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="133" as="sourcePoint" />
             <Array as="points">
@@ -805,7 +805,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2rWUWQeE0axeOqjmCgI_-82" value="删除文件请求-DataDelete" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="ufELNT6xj6v-KBszaX-q-1">
+        <mxCell id="2rWUWQeE0axeOqjmCgI_-82" value="删除文件请求-DataDeleteFile" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="ufELNT6xj6v-KBszaX-q-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="100" y="1753" as="sourcePoint" />
             <mxPoint x="280" y="1753" as="targetPoint" />
