@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T08:02:55.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1ZnXrYX1EpOnjUaow_Nr" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-19T09:43:36.868Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9PiKqKpPKBIh0jAhzqt1" version="24.5.5" type="github" pages="2">
   <diagram name="Page-1" id="M3JNiA5_NImXu8p_yaSI">
     <mxGraphModel dx="735" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -594,6 +594,203 @@
         </mxCell>
         <mxCell id="UoHPOTDV9lwwoDKgp1wP-317" value="存量数据：确认根因，忽略数据&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2030" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4jpCRRjy8n9Wep95Lowe" name="Page-2">
+    <mxGraphModel dx="1562" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--1" value="pavo-agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="100" height="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--1">
+          <mxGeometry x="45" y="53" width="10" height="1347" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--1">
+          <mxGeometry x="55" y="780" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--8" value="参数校验&lt;div&gt;通过gemini api查询快照信息&lt;/div&gt;&lt;div&gt;构建并插入CoreTask记录&lt;/div&gt;&lt;div&gt;异步框架dispatch提交任务&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--1" target="FOTF3Su8N6pa6_eZdOh--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="760" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--11" value="pavo-center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="100" height="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="45" y="53" width="10" height="1357" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="49" y="153" width="10" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--14" value="&lt;div&gt;查询或插入multiple_replica_check类型的TimedTask记录&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;检查&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TimedTask记录的状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;对于init状态，进行后面处理&lt;/div&gt;&lt;div&gt;对于doing状态，尝试启动异步检查任务&lt;/div&gt;&lt;div&gt;对于finished状态，打印日志，不做其他处理&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--13">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="133" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="163" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="50" y="640" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--18" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;选择一个副本&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;插入AgentTask记录&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--17">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="620" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="650" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="49" y="500" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--25" value="&lt;div&gt;查询metadata，检查副本状态，确认是否需要检查多副本一致性&lt;/div&gt;&lt;div&gt;若不需要检查，更新CoreTask状态为fail，并更新原因和错误信息&lt;/div&gt;&lt;div&gt;若需要检查，更新CoreTask状态为doing&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--24">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="510" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="55" y="241.5" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--42" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;删除CoreTask里所有任务&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;从缓存的副本信息构建任务插入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CoreTask&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask记录状态改成doing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;尝试启动异步检查任务&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--41">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="60" y="221.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="221.5" />
+              <mxPoint x="90" y="251.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="49" y="400" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--44" value="&lt;div&gt;查询CoreTask，根据逻辑路径排序，查询1个init状态的任务&lt;/div&gt;&lt;div&gt;异步框架dispatch提交任务&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--43">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="410" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="50" y="900" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--49" value="&lt;div&gt;修改AgentTask记录状态为已受理&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--48">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="880" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="910" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="50" y="990" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--51" value="&lt;div&gt;修改CoreTask记录状态为wait-downstream-notify&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--50">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="970" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1000" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="50" y="1200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--57" value="&lt;div&gt;修改AgentTask记录状态为终态，如果失败，更新错误信息和错误码&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--56">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="1180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1210" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--11">
+          <mxGeometry x="50" y="1340" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--59" value="&lt;div&gt;检查所有AgentTask状态是否全部终态&lt;/div&gt;&lt;div&gt;如果没有全部终态，则等待下次触发检查&lt;/div&gt;&lt;div&gt;如果已经全部终态，则根据所有AgentTask状态和校验值进行多副本一致性检查&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;并更新CoreTask状态为终态&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--11" target="FOTF3Su8N6pa6_eZdOh--58">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="1320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--26" value="大小计算请求-DataUpdateSize" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1040" y="330" as="sourcePoint" />
+            <mxPoint x="1220" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="360" as="sourcePoint" />
+            <mxPoint x="1040" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--31" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;定时任务&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="420" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--35" value="多副本一致性检查" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--40" value="通知大小计算中-&lt;div&gt;NotifySnapshotDataSizeStatus&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="430" as="sourcePoint" />
+            <mxPoint x="1210" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--45" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;BeforStart&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="530" width="420" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--46" value="大小计算请求-DataUpdateSize" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="140" y="800" as="sourcePoint" />
+            <mxPoint x="650" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--47" value="受理成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="920" as="sourcePoint" />
+            <mxPoint x="140" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--52" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Start&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="650" width="780" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--53" value="for 所有副本" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="670" width="750" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--54" value="通知校验值计算结果" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="140" y="1210" as="sourcePoint" />
+            <mxPoint x="640" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--55" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;BeforStart&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1180" width="620" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--60" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;AfterComplete&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1360" width="540" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
