@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T11:40:14.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="7qyzZbfgG7BcKzDNIGtq" version="24.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-19T11:48:43.107Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JA5qbhIlM800o3VpfJna" version="24.5.5" type="github" pages="2">
   <diagram name="Page-1" id="M3JNiA5_NImXu8p_yaSI">
     <mxGraphModel dx="735" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -919,7 +919,7 @@
         <mxCell id="FOTF3Su8N6pa6_eZdOh--112" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--104">
           <mxGeometry x="55" y="241.5" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FOTF3Su8N6pa6_eZdOh--113" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;删除CoreTask里所有任务&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;从缓存的副本信息构建记录插入&lt;/span&gt;PtoGCheck&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask记录状态改成doing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;尝试启动异步检查任务&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--104" target="FOTF3Su8N6pa6_eZdOh--112">
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--113" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;删除&lt;/span&gt;PtoGCheck&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;里所有记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;从缓存的副本信息构建记录插入&lt;/span&gt;PtoGCheck&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask记录状态改成doing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;尝试启动异步检查任务&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--104" target="FOTF3Su8N6pa6_eZdOh--112">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="60" y="221.5" as="sourcePoint" />
             <Array as="points">
@@ -993,32 +993,32 @@
           <mxGeometry x="62.5" y="2030" width="787.5" height="360" as="geometry" />
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--137" value="pavo-agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="600" y="2680" width="100" height="880" as="geometry" />
+          <mxGeometry x="600" y="2680" width="100" height="940" as="geometry" />
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--138" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--137">
-          <mxGeometry x="45" y="53" width="10" height="817" as="geometry" />
+          <mxGeometry x="45" y="53" width="10" height="877" as="geometry" />
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--139" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--137">
-          <mxGeometry x="52" y="530" width="10" height="40" as="geometry" />
+          <mxGeometry x="52" y="480" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--140" value="参数校验&lt;div&gt;通过gemini api查询快照信息&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--137" target="FOTF3Su8N6pa6_eZdOh--139">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="57" y="510" as="sourcePoint" />
+            <mxPoint x="57" y="460" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="87" y="540" />
+              <mxPoint x="87" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--141" value="pavo-center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="80" y="2680" width="100" height="880" as="geometry" />
+          <mxGeometry x="80" y="2680" width="100" height="940" as="geometry" />
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--141">
-          <mxGeometry x="45" y="53" width="10" height="807" as="geometry" />
+          <mxGeometry x="45" y="53" width="10" height="877" as="geometry" />
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--143" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--141">
           <mxGeometry x="49" y="153" width="10" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="FOTF3Su8N6pa6_eZdOh--144" value="&lt;div&gt;查询或插入pavo_to_geminifs_check类型的TimedTask记录&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;检查&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TimedTask记录的状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;对于init状态，进行后面处理&lt;/div&gt;&lt;div&gt;对于doing状态，尝试启动异步检查任务&lt;/div&gt;&lt;div&gt;对于finished状态，打印日志，不做其他处理&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--143">
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--144" value="&lt;div&gt;查询或插入geminifs_to_pavo_check类型的TimedTask记录&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;检查&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TimedTask记录的状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;对于init状态，进行后面处理&lt;/div&gt;&lt;div&gt;对于doing状态，尝试启动异步检查任务&lt;/div&gt;&lt;div&gt;对于finished状态，打印日志，不做其他处理&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--143">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="133" as="sourcePoint" />
             <Array as="points">
@@ -1030,7 +1030,7 @@
         <mxCell id="FOTF3Su8N6pa6_eZdOh--145" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--141">
           <mxGeometry x="55" y="241.5" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FOTF3Su8N6pa6_eZdOh--146" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;删除CoreTask里所有任务&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;从缓存的副本信息构建记录插入&lt;/span&gt;PtoGCheck&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask记录状态改成doing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;尝试启动异步检查任务&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--145">
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--146" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;删除GtoPCheck里所有记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;从文件获取各集群geminifs的快照信息，并构建记录插入&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;GtoPCheck&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask记录状态改成doing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;尝试启动异步检查任务&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--145">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="60" y="221.5" as="sourcePoint" />
             <Array as="points">
@@ -1043,7 +1043,7 @@
         <mxCell id="FOTF3Su8N6pa6_eZdOh--147" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--141">
           <mxGeometry x="49" y="400" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FOTF3Su8N6pa6_eZdOh--148" value="&lt;div&gt;获取一个查询到的init状态的PtoGCheck记录&lt;/div&gt;&lt;div&gt;查询metadata，检查数据状态，是否有效数据&lt;/div&gt;&lt;div&gt;如果非有效数据，则更新PtoGCheck状态为失败，并更新失败原因和错误码&lt;/div&gt;&lt;div&gt;如果有效数据，进行后续流程&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--147">
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--148" value="&lt;div&gt;获取一个查询到的init状态的PtoGCheck记录&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--147">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="54" y="380" as="sourcePoint" />
             <Array as="points">
@@ -1055,7 +1055,7 @@
         <mxCell id="FOTF3Su8N6pa6_eZdOh--149" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--141">
           <mxGeometry x="50" y="650" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FOTF3Su8N6pa6_eZdOh--150" value="根据查询返回结果，更新PtoGCheck记录：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果查询不存在，则更新PtoGCheck记录状态为成功，结果为不一致&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果查询失败，则更新PtoGCheck记录状态为失败，失败原因和错误码&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果查询成功，则更新PtoGCheck记录状态为成功，结果为一致&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--149">
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--150" value="根据查询返回结果，更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;GtoPCheck&lt;/span&gt;记录：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果查询不存在，则更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;GtoPCheck&lt;/span&gt;记录状态为失败，失败原因和错误码&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果查询失败，则更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;GtoPCheck&lt;/span&gt;记录状态为失败，失败原因和错误码&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果查询成功，则进行后续流程&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--149">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="55" y="630" as="sourcePoint" />
             <Array as="points">
@@ -1065,40 +1065,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--151" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--141">
-          <mxGeometry x="50" y="780" width="10" height="40" as="geometry" />
+          <mxGeometry x="50" y="740" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FOTF3Su8N6pa6_eZdOh--152" value="&lt;div&gt;更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask&lt;/span&gt;记录状态为finished&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--151">
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--152" value="&lt;div&gt;查询metadat，检查副本状态&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;如果查询不存在，则更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;GtoPCheck记录状态为成功，结果为不一致&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;如果查询存在，则&lt;/span&gt;更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;GtoPCheck记录状态为成功，结果为一致&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;如果查询失败，则&lt;/span&gt;更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;GtoPCheck记录状态为失败，失败原因和错误码&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--151">
           <mxGeometry x="0.0118" relative="1" as="geometry">
-            <mxPoint x="55" y="760" as="sourcePoint" />
+            <mxPoint x="55" y="720" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="790" />
+              <mxPoint x="85" y="750" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--159" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--141">
+          <mxGeometry x="50" y="860" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--160" value="&lt;div&gt;更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask&lt;/span&gt;记录状态为finished&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--141" target="FOTF3Su8N6pa6_eZdOh--159">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="840" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="870" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--153" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;定时任务&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="2760" width="420" height="210" as="geometry" />
+          <mxGeometry x="90" y="2760" width="460" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="FOTF3Su8N6pa6_eZdOh--154" value="pavo-to-gemini快照一致检查" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--154" value="gemini-to-pavo快照一致检查" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry y="2640" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--155" value="查询快照信息" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="140" y="3160" as="sourcePoint" />
-            <mxPoint x="650" y="3160" as="targetPoint" />
+            <mxPoint x="135" y="3130" as="sourcePoint" />
+            <mxPoint x="645" y="3130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--156" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="645" y="3260" as="sourcePoint" />
-            <mxPoint x="135" y="3260" as="targetPoint" />
+            <mxPoint x="645" y="3220" as="sourcePoint" />
+            <mxPoint x="135" y="3220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--157" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;异步检查&lt;br&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=80;height=30;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2990" width="820" height="530" as="geometry" />
+          <mxGeometry x="40" y="2990" width="820" height="600" as="geometry" />
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--158" value="for 所有记录" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=20;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="62.5" y="3030" width="787.5" height="360" as="geometry" />
+          <mxGeometry x="62.5" y="3030" width="787.5" height="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
