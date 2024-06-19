@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T09:59:33.467Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nVAa20VnKWRnGxRM_jaz" version="24.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-19T10:05:09.286Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="w9fVMr4i0g2aQ6le2F3L" version="24.5.5" type="github" pages="2">
   <diagram name="Page-1" id="M3JNiA5_NImXu8p_yaSI">
     <mxGraphModel dx="735" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -795,7 +795,7 @@
         <mxCell id="FOTF3Su8N6pa6_eZdOh--69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="FOTF3Su8N6pa6_eZdOh--61">
           <mxGeometry x="50" y="450" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FOTF3Su8N6pa6_eZdOh--70" value="通过gemini api遍历计算快照里的所有文件大小、文件和文件夹个数&lt;div&gt;计算成功，更新CoreTask记录状态为成功&lt;/div&gt;&lt;div&gt;计算失败，更新CoreTask记录状态为失败，并更新失败原因和错误码&lt;/div&gt;&lt;div&gt;更新CoreTask记录里通知状态为init&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--61" target="FOTF3Su8N6pa6_eZdOh--69">
+        <mxCell id="FOTF3Su8N6pa6_eZdOh--70" value="通过gemini api遍历计算快照里的所有文件大小、文件和文件夹个数&lt;div&gt;计算成功，更新CoreTask记录状态为成功&lt;/div&gt;&lt;div&gt;计算失败，更新CoreTask记录状态为失败，并更新失败原因和错误码&lt;/div&gt;&lt;div&gt;更新CoreTask记录里通知状态为doing&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="FOTF3Su8N6pa6_eZdOh--61" target="FOTF3Su8N6pa6_eZdOh--69">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="55" y="430" as="sourcePoint" />
             <Array as="points">
