@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T14:07:34.489Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Ue-ljLilQYXsWJ177PJO" version="24.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-04T03:10:23.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="J5PcZQmc7nepwTf9V0vm" version="24.5.5" type="github" pages="2">
   <diagram name="Page-1" id="M3JNiA5_NImXu8p_yaSI">
     <mxGraphModel dx="684" dy="901" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1193,6 +1193,176 @@
         </mxCell>
         <mxCell id="FOTF3Su8N6pa6_eZdOh--186" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="FOTF3Su8N6pa6_eZdOh--184" target="FOTF3Su8N6pa6_eZdOh--179">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-1" value="pavo-agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1670" width="100" height="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="Davk-NLiZR95Rm-gU7yL-1">
+          <mxGeometry x="45" y="53" width="10" height="1167" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="Davk-NLiZR95Rm-gU7yL-1">
+          <mxGeometry x="52" y="530" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-4" value="参数校验&lt;div&gt;通过gemini api查询快照信息&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="Davk-NLiZR95Rm-gU7yL-1" target="Davk-NLiZR95Rm-gU7yL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="57" y="510" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="87" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-5" value="pavo-center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1670" width="100" height="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="Davk-NLiZR95Rm-gU7yL-5">
+          <mxGeometry x="45" y="53" width="10" height="1167" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="Davk-NLiZR95Rm-gU7yL-5">
+          <mxGeometry x="49" y="153" width="10" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-8" value="&lt;div&gt;查询pavo_geminifs_check类型的TimedTask记录&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;检查&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TimedTask记录的状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;对于init状态，进行后面处理&lt;/div&gt;&lt;div&gt;对于doing状态，尝试启动异步检查任务&lt;/div&gt;&lt;div&gt;对于finished状态，打印日志，不做其他处理&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;" edge="1" parent="Davk-NLiZR95Rm-gU7yL-5" target="Davk-NLiZR95Rm-gU7yL-7">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="133" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="163" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="Davk-NLiZR95Rm-gU7yL-5">
+          <mxGeometry x="55" y="241.5" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-10" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;删除&lt;/span&gt;PavoGeminifsCheck&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;里所有记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;从缓存的副本信息构建记录插入&lt;/span&gt;PavoGeminifsCheck&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask记录状态改成doing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;尝试启动异步检查任务&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="Davk-NLiZR95Rm-gU7yL-5" target="Davk-NLiZR95Rm-gU7yL-9">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="60" y="221.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="221.5" />
+              <mxPoint x="90" y="251.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="Davk-NLiZR95Rm-gU7yL-5">
+          <mxGeometry x="49" y="400" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-12" value="&lt;div&gt;查询PavoGeminifsCheck中同一逻辑路径是否已经存在&lt;/div&gt;&lt;div&gt;如果已经存在，则将PavoGeminifsCheck中的记录的比对结果值修改为一致&lt;/div&gt;&lt;div&gt;如果不存在，则实时查询一次metadata&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="Davk-NLiZR95Rm-gU7yL-5" target="Davk-NLiZR95Rm-gU7yL-11">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="410" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="Davk-NLiZR95Rm-gU7yL-5">
+          <mxGeometry x="50" y="650" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-14" value="根据查询返回结果和上面查询metadata的结果决策：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果metadata不存在，geminifs也不存在，则跳过&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果metadata不存在，geminifs存在，则往&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;PavoGeminifsCheck&lt;/span&gt;&lt;span style=&quot;&quot;&gt;中&lt;/span&gt;插入记录，比对结果为只有geminifs有&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果metadata存在，geminifs不存在，则往&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;PavoGeminifsCheck&lt;/span&gt;&lt;span style=&quot;&quot;&gt;中&lt;/span&gt;插入记录，比对结果为只有pavo有&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果metadata存在，geminifs存在，则往&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;PavoGeminifsCheck&lt;/span&gt;&lt;span style=&quot;&quot;&gt;中&lt;/span&gt;插入记录，比对结果为一致&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="Davk-NLiZR95Rm-gU7yL-5" target="Davk-NLiZR95Rm-gU7yL-13">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="660" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="Davk-NLiZR95Rm-gU7yL-5">
+          <mxGeometry x="49" y="1160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-16" value="&lt;div&gt;更新&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;TimedTask&lt;/span&gt;记录状态为finished&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="Davk-NLiZR95Rm-gU7yL-5" target="Davk-NLiZR95Rm-gU7yL-15">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="54" y="1140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="1170" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-17" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;定时任务&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=110;height=15;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1750" width="420" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-18" value="pavo-gemini快照一致检查" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1620" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-19" value="查询快照信息" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1040" y="2150" as="sourcePoint" />
+            <mxPoint x="1550" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-20" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1545" y="2250" as="sourcePoint" />
+            <mxPoint x="1035" y="2250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-21" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;异步检查&lt;br&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=16;width=80;height=30;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1980" width="820" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-22" value="for geminifs快照清单" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=118;height=15;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="956.25" y="2020" width="787.5" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1031" y="2420" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-26" value="&lt;div&gt;查询PavoGeminifsCheck所有无比对结果的记录&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="Davk-NLiZR95Rm-gU7yL-25">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="1036" y="2400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1066" y="2430" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1551" y="2620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-37" value="参数校验&lt;div&gt;通过gemini api查询快照信息&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="Davk-NLiZR95Rm-gU7yL-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1556" y="2600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1586" y="2630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="2525" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-39" value="&lt;div&gt;实时查询一次metadata&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="Davk-NLiZR95Rm-gU7yL-38">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="1034" y="2505" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1064" y="2535" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="2740" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-41" value="根据查询返回结果和上面查询metadata的结果决策：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果metadata不存在，geminifs也不存在，则删除&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;PavoGeminifsCheck&lt;/span&gt;对应记录&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果metadata不存在，geminifs存在，则更新比对结果为只有geminifs有&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果metadata存在，geminifs不存在，则更新比对结果为只有pavo有&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 如果metadata存在，geminifs存在，则更新比对结果为一致&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1" target="Davk-NLiZR95Rm-gU7yL-40">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="1034" y="2720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1064" y="2750" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-42" value="查询快照信息" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1035" y="2580" as="sourcePoint" />
+            <mxPoint x="1545" y="2580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-43" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1544" y="2670" as="sourcePoint" />
+            <mxPoint x="1034" y="2670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Davk-NLiZR95Rm-gU7yL-44" value="for 无比对结果记录" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=118;height=15;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="956.25" y="2475" width="787.5" height="315" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
