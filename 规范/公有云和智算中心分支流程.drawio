@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j533js6PK0OlSNogMI2J-13" value="master分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="107" width="100" height="30" as="geometry" />
+          <mxGeometry x="-7" y="107" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j533js6PK0OlSNogMI2J-18" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=2;" edge="1" parent="1" target="j533js6PK0OlSNogMI2J-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
