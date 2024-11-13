@@ -361,7 +361,7 @@
           <mxGeometry x="382" y="1088" width="80" height="32" as="geometry" />
         </mxCell>
         <mxCell id="j533js6PK0OlSNogMI2J-179" value="私有云3.7.1周期" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1155" width="140" height="30" as="geometry" />
+          <mxGeometry x="1240" y="2220" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j533js6PK0OlSNogMI2J-180" value="(当前)私有云3.8.0周期" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="360" y="1155" width="180" height="30" as="geometry" />
