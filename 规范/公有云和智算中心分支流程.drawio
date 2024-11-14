@@ -950,6 +950,9 @@
         <mxCell id="j533js6PK0OlSNogMI2J-355" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2289" y="641" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="j533js6PK0OlSNogMI2J-356" value="发版: cloud_r5.3.0_20250909" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=82.07;dy=8;size=6.6;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1908" y="557" width="160" height="32" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
