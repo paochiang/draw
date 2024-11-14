@@ -967,10 +967,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aDllb3SAf9EBUdZybxnv-2" value="hotfix分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1026" y="1626" width="90" height="30" as="geometry" />
+          <mxGeometry x="992" y="1626" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-3" value="test分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1038" y="1863" width="80" height="30" as="geometry" />
+          <mxGeometry x="995" y="1863" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-4" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=3;" parent="1" source="rd860IlOPxu0NPVJ4gA3-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -979,7 +979,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-5" value="feature分支&lt;br&gt;bugfix分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1013" y="1972" width="110" height="50" as="geometry" />
+          <mxGeometry x="973" y="1972" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1000,7 +1000,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-9" value="master分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="999" y="1741" width="100" height="30" as="geometry" />
+          <mxGeometry x="971" y="1741" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=3;" parent="1" source="aDllb3SAf9EBUdZybxnv-5" target="aDllb3SAf9EBUdZybxnv-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1147,10 +1147,10 @@
           <mxGeometry x="1364" y="2017" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-48" value="master-cloud分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="972" y="1540" width="150" height="30" as="geometry" />
+          <mxGeometry x="928" y="1540" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-50" value="master-aidc-r5.1.0分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="947" y="1462" width="190" height="30" as="geometry" />
+          <mxGeometry x="893" y="1462" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-51" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=3;" parent="1" source="b7WshvnENW9dypK46fDa-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1159,7 +1159,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-52" value="master-aidc-r5.3.0分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="941" y="1382" width="190" height="30" as="geometry" />
+          <mxGeometry x="896" y="1382" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDllb3SAf9EBUdZybxnv-53" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=3;" parent="1" source="b7WshvnENW9dypK46fDa-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1353,7 +1353,7 @@
           <mxGeometry x="1589" y="1587" width="110" height="41" as="geometry" />
         </mxCell>
         <mxCell id="b7WshvnENW9dypK46fDa-1" value="master-aidc补丁分支" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="961" y="1306" width="170" height="30" as="geometry" />
+          <mxGeometry x="915" y="1306" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b7WshvnENW9dypK46fDa-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=3;opacity=30;" edge="1" parent="1" source="b7WshvnENW9dypK46fDa-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
