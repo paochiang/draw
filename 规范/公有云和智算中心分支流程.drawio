@@ -1553,10 +1553,10 @@
         <mxCell id="rd860IlOPxu0NPVJ4gA3-26" value="创建分支" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=52.76;dy=6;size=6.6;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="1850" y="1355" width="80" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="KIr0Lu9mNKlYpnPBIrFe-1" value="补丁: aidc-patch-r5.1.0-20250719" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=65.4;dy=8;size=6.6;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="KIr0Lu9mNKlYpnPBIrFe-1" value="补丁: patch-aidc-r5.1.0-20250719" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=65.4;dy=8;size=6.6;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="1652" y="1270" width="132" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="KIr0Lu9mNKlYpnPBIrFe-3" value="&lt;div&gt;相同问题，2个版本都计划修复&lt;/div&gt;补丁1: aidc-patch-r5.3.0-20251009&lt;div&gt;补丁2: aidc-patch-r5.1.0-20251009&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=79.71;dy=8;size=6.6;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="KIr0Lu9mNKlYpnPBIrFe-3" value="&lt;div&gt;相同问题，2个版本都计划修复&lt;/div&gt;补丁1: patch-aidc-r5.3.0-20251009&lt;div&gt;补丁2:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;patch-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;aidc-r5.1.0-20251009&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=79.71;dy=8;size=6.6;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="1945" y="1255" width="224" height="56" as="geometry" />
         </mxCell>
         <mxCell id="KIr0Lu9mNKlYpnPBIrFe-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
@@ -1626,7 +1626,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nKQulubEvpb8POElsq4E" name="Page-4">
-    <mxGraphModel dx="722" dy="-329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="749" dy="-360" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
