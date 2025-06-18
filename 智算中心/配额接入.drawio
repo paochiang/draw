@@ -1115,6 +1115,12 @@
         <mxCell id="y8rMJU8kDryFsDL03ryD-187" value="查询存储是否支持配额能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TVzmcZn9n1Fn2xFg06Ak-1">
           <mxGeometry x="1282" y="1249.07" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="y8rMJU8kDryFsDL03ryD-190" value="storage-pavo-center和stroage-pavo-agent不持久化配额相关数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="TVzmcZn9n1Fn2xFg06Ak-1">
+          <mxGeometry x="120" y="1880" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y8rMJU8kDryFsDL03ryD-191" value="GQI driver和 pavo交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TVzmcZn9n1Fn2xFg06Ak-1">
+          <mxGeometry x="120" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
