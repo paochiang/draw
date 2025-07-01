@@ -2287,9 +2287,6 @@
         <mxCell id="ewH3DWrZDDdDhPyEMjKB-17" value="删除配额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="e5U77sM2ki0XaUoQ-0ft-1">
           <mxGeometry x="238.23000000000002" y="1600.3300000000004" width="120" height="34.75" as="geometry" />
         </mxCell>
-        <mxCell id="ewH3DWrZDDdDhPyEMjKB-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="e5U77sM2ki0XaUoQ-0ft-1">
-          <mxGeometry x="238.23000000000002" y="1643.0299999999997" width="120" height="34.75" as="geometry" />
-        </mxCell>
         <mxCell id="ewH3DWrZDDdDhPyEMjKB-19" value="任务补偿" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#E4BFBD;" vertex="1" parent="e5U77sM2ki0XaUoQ-0ft-1">
           <mxGeometry x="238.23000000000002" y="1556.5" width="120" height="34.75" as="geometry" />
         </mxCell>
@@ -2299,7 +2296,7 @@
         <mxCell id="ewH3DWrZDDdDhPyEMjKB-23" value="更新用量" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="e5U77sM2ki0XaUoQ-0ft-1">
           <mxGeometry x="368.78999999999996" y="1600.12" width="120" height="34.75" as="geometry" />
         </mxCell>
-        <mxCell id="ewH3DWrZDDdDhPyEMjKB-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="e5U77sM2ki0XaUoQ-0ft-1">
+        <mxCell id="ewH3DWrZDDdDhPyEMjKB-24" value="......" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="e5U77sM2ki0XaUoQ-0ft-1">
           <mxGeometry x="368.78999999999996" y="1643.0299999999997" width="120" height="34.75" as="geometry" />
         </mxCell>
         <mxCell id="ewH3DWrZDDdDhPyEMjKB-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="e5U77sM2ki0XaUoQ-0ft-1" source="ewH3DWrZDDdDhPyEMjKB-0" target="ewH3DWrZDDdDhPyEMjKB-0">
