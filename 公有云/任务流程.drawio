@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.2" pages="2">
   <diagram name="离线任务创建和提交" id="q-FKr38_cjb9bAnMw6bk">
     <mxGraphModel dx="1554" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,6 +206,14 @@
         <mxCell id="2ayJp5on0NI8x-PA82Mp-54" value="定时任务(5s)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="840" width="650" height="570" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="离线任务调度和更新" id="KDuRLmohUwIqfBv5t3YJ">
+    <mxGraphModel dx="1554" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="uxq78JOp1_QEmdOXQwrp-0" />
+        <mxCell id="uxq78JOp1_QEmdOXQwrp-1" parent="uxq78JOp1_QEmdOXQwrp-0" />
       </root>
     </mxGraphModel>
   </diagram>
