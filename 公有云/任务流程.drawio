@@ -209,6 +209,9 @@
         <mxCell id="gNt-T2uzj1xn7AGjJJt7-1" value="&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;配额队列流程&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="40" y="720" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="gNt-T2uzj1xn7AGjJJt7-2" value="&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;任务创建流程&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
